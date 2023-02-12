@@ -1,0 +1,68 @@
+Feb-12 22:17:40.596 [main] DEBUG nextflow.cli.Launcher - $> nextflow run ngs.nf -profile singularity
+Feb-12 22:17:40.770 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.10.6
+Feb-12 22:17:40.805 [main] INFO  nextflow.cli.CmdRun - Launching `ngs.nf` [serene_williams] - revision: 5c088839b2
+Feb-12 22:17:40.823 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/cq/Anirban/NGS/Nextflow/Task/nextflow.config
+Feb-12 22:17:40.824 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/cq/Anirban/NGS/Nextflow/Task/nextflow.config
+Feb-12 22:17:40.859 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `singularity`
+Feb-12 22:17:41.764 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [singularity]
+Feb-12 22:17:41.817 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/cq/.nextflow/plugins
+Feb-12 22:17:41.819 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Feb-12 22:17:41.839 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Feb-12 22:17:41.840 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Feb-12 22:17:41.845 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Feb-12 22:17:41.864 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Feb-12 22:17:41.949 [main] DEBUG nextflow.Session - Session uuid: 685157de-874a-43b8-b87e-1eeb3f6c66b7
+Feb-12 22:17:41.950 [main] DEBUG nextflow.Session - Run name: serene_williams
+Feb-12 22:17:41.951 [main] DEBUG nextflow.Session - Executor pool size: 4
+Feb-12 22:17:42.008 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.10.6 build 5660
+  Created: 21-12-2021 16:55 UTC (17:55 CEST)
+  System: Linux 5.15.0-60-generic
+  Runtime: Groovy 3.0.9 on OpenJDK 64-Bit Server VM 11.0.17+8-post-Ubuntu-1ubuntu222.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 8540@bioinfobox [127.0.1.1]
+  CPUs: 4 - Mem: 1.9 GB (62.3 MB) - Swap: 923.3 MB (436.4 MB)
+Feb-12 22:17:42.077 [main] DEBUG nextflow.Session - Work-dir: /home/cq/Anirban/NGS/Nextflow/Task/work [ext2/ext3]
+Feb-12 22:17:42.077 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/cq/Anirban/NGS/Nextflow/Task/bin
+Feb-12 22:17:42.093 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Feb-12 22:17:42.119 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Feb-12 22:17:42.181 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Feb-12 22:17:42.290 [main] DEBUG nextflow.Session - Session start invoked
+Feb-12 22:17:42.877 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Feb-12 22:17:42.998 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-12 22:17:42.998 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-12 22:17:43.005 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Feb-12 22:17:43.013 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=1.9 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
+Feb-12 22:17:43.067 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Feb-12 22:17:43.182 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-12 22:17:43.182 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-12 22:17:43.195 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-12 22:17:43.195 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-12 22:17:43.200 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-12 22:17:43.201 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-12 22:17:43.205 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: downloadFile, combinefastafiles, trimal, mafft
+Feb-12 22:17:43.206 [main] DEBUG nextflow.Session - Ignite dataflow network (4)
+Feb-12 22:17:43.207 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > downloadFile
+Feb-12 22:17:43.209 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > combinefastafiles
+Feb-12 22:17:43.211 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > mafft
+Feb-12 22:17:43.213 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > trimal
+Feb-12 22:17:43.216 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Feb-12 22:17:43.221 [main] DEBUG nextflow.Session - Session await
+Feb-12 22:17:43.378 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > downloadFile
+Feb-12 22:17:43.543 [Actor Thread 6] DEBUG n.util.BlockingThreadExecutorFactory - Thread pool name=FileTransfer; maxThreads=12; maxQueueSize=36; keepAlive=1m
+Feb-12 22:17:43.589 [Actor Thread 2] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > combinefastafiles
+Feb-12 22:17:43.666 [Actor Thread 3] INFO  nextflow.container.SingularityCache - Pulling Singularity image https://depot.galaxyproject.org/singularity/mafft%3A7.515--hec16e2b_0 [cache /home/cq/Anirban/NGS/Nextflow/Task/singularity_containers/depot.galaxyproject.org-singularity-mafft%3A7.515--hec16e2b_0.img]
+Feb-12 22:17:48.972 [Actor Thread 3] DEBUG nextflow.container.SingularityCache - Singularity pull complete image=https://depot.galaxyproject.org/singularity/mafft%3A7.515--hec16e2b_0 path=/home/cq/Anirban/NGS/Nextflow/Task/singularity_containers/depot.galaxyproject.org-singularity-mafft%3A7.515--hec16e2b_0.img
+Feb-12 22:17:49.135 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-12 22:17:49.145 [Task submitter] INFO  nextflow.Session - [32/bbe6ac] Submitted process > mafft
+Feb-12 22:17:50.505 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: mafft; status: COMPLETED; exit: 0; error: -; workDir: /home/cq/Anirban/NGS/Nextflow/Task/work/32/bbe6ac1cb07a4dd1071543853da912]
+Feb-12 22:17:50.530 [Actor Thread 3] INFO  nextflow.container.SingularityCache - Pulling Singularity image https://depot.galaxyproject.org/singularity/trimal%3A1.4.1--h9f5acd7_6 [cache /home/cq/Anirban/NGS/Nextflow/Task/singularity_containers/depot.galaxyproject.org-singularity-trimal%3A1.4.1--h9f5acd7_6.img]
+Feb-12 22:17:54.329 [Actor Thread 3] DEBUG nextflow.container.SingularityCache - Singularity pull complete image=https://depot.galaxyproject.org/singularity/trimal%3A1.4.1--h9f5acd7_6 path=/home/cq/Anirban/NGS/Nextflow/Task/singularity_containers/depot.galaxyproject.org-singularity-trimal%3A1.4.1--h9f5acd7_6.img
+Feb-12 22:17:54.345 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-12 22:17:54.346 [Task submitter] INFO  nextflow.Session - [e8/7c5db7] Submitted process > trimal
+Feb-12 22:17:54.742 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: trimal; status: COMPLETED; exit: 0; error: -; workDir: /home/cq/Anirban/NGS/Nextflow/Task/work/e8/7c5db7a1fa5dabeb71d4fc9edb7401]
+Feb-12 22:17:54.790 [main] DEBUG nextflow.Session - Session await > all process finished
+Feb-12 22:17:54.802 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Feb-12 22:17:54.825 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=2; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=1.6s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+Feb-12 22:17:55.057 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Feb-12 22:17:55.091 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

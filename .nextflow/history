@@ -1,0 +1,68 @@
+2023-02-10 14:16:48	5.4s	admiring_tuckerman	OK	269665d74d15e2ddc6567242d0e68004	172345e7-024a-4337-84f6-78224037c381	nextflow run task_chakraborty.nf
+2023-02-10 14:57:56	-	gigantic_snyder	-	932a2dcb00426583a7a12ce6f1517a25	7816f88b-7da9-4481-9c74-76ba78c6e995	nextflow run task_chakraborty.nf
+2023-02-10 14:59:46	-	happy_aryabhata	-	c05327bdda7ce985945189cda7d3debf	20a7f119-8471-4901-a674-5883fa1c6288	nextflow run task_chakraborty.nf
+2023-02-10 15:00:48	-	marvelous_goldstine	-	cc18d978e65e657937fdd84d1d39721d	18f4a6bf-b955-4645-b521-a7143314e818	nextflow run task_chakraborty.nf
+2023-02-10 15:01:25	-	stupefied_rubens	-	07fe463ba28cd7693eafd816d0a31a08	20871473-5bf0-42ee-b842-d6753df9986b	nextflow run task_chakraborty.nf
+2023-02-10 15:02:04	-	zen_hilbert	-	3ec4fa980eab03b966f0e4cd66737996	5a0cfc7d-37e6-4a77-80d7-36ec59478b5f	nextflow run task_chakraborty.nf
+2023-02-10 15:02:46	-	trusting_lavoisier	-	9e11dd3fb569d783449b085b7f13026c	374acc75-07ec-4f81-939e-be1bb0f1e298	nextflow run task_chakraborty.nf
+2023-02-10 15:03:09	-	stoic_almeida	-	882a03de701f97f46ca56ca851a00355	06cac3c3-53da-403b-9365-e30442f20ab7	nextflow run task_chakraborty.nf
+2023-02-10 15:14:30	3.5s	angry_archimedes	OK	d30e005238c2d2d92c3338ce5c7d6075	9f7dcb89-fba3-4773-a8a7-64af1d90bb69	nextflow run task_chakraborty.nf
+2023-02-10 15:17:50	-	cheesy_minsky	-	ccdbd7f6e49f9c625eb671de88be0b81	694c484f-cafa-4903-90c3-0862b53d5d88	nextflow run task_chakraborty.nf
+2023-02-10 15:18:11	-	admiring_galileo	-	1d6182e81a608a847a08afbeb924f8d3	00f31e83-9320-41f1-85f5-aa4134fccc9c	nextflow run task_chakraborty.nf
+2023-02-10 15:21:41	-	extravagant_swanson	-	d60bdae48371236edc9ec67f83fc09cf	ab905871-8f14-414d-97db-4dfacd81e425	nextflow run task_chakraborty.nf
+2023-02-10 15:22:06	-	shrivelled_goldwasser	-	e90df5a4581d966ec25efd8e8a53231b	979083f2-cc21-4e4d-84d1-8f330c5906c6	nextflow run task_chakraborty.nf
+2023-02-10 15:23:37	-	cheesy_leakey	-	fb3959c3fb2d2e6fb664d0d6b24958a0	96bca33f-99ce-4217-a741-ba7023eb259c	nextflow run task_chakraborty.nf
+2023-02-10 16:24:20	4s	stoic_mccarthy	ERR	fbaa878559de1179c4862b1728f55834	64cc3fdb-e777-4536-bd19-141dca69fab4	nextflow run task_chakraborty.nf
+2023-02-10 16:25:18	4.2s	fervent_mahavira	ERR	f8a6f7691bfaaef4d735dd73bbd8097b	b610ad62-ee1b-4627-a75c-6ec67e34d72d	nextflow run task_chakraborty.nf
+2023-02-10 16:58:16	3.3s	exotic_shockley	ERR	e29f756aa146ace640d5fda4b6b8c159	d841c9fe-d614-4ece-8c25-20f4c197f946	nextflow run task_chakraborty.nf
+2023-02-10 16:58:53	3.1s	lethal_galileo	ERR	13ef3c86fde11b65e6bc6a8752e81dc2	20fe4f8b-1d1c-4a5a-9966-5e6019ca3692	nextflow run task_chakraborty.nf
+2023-02-10 16:59:21	3.6s	peaceful_pare	ERR	13ef3c86fde11b65e6bc6a8752e81dc2	6062e012-7424-4242-a28e-6524888ec4ef	nextflow run task_chakraborty.nf
+2023-02-10 17:02:25	3.6s	wise_goldberg	ERR	13ef3c86fde11b65e6bc6a8752e81dc2	f64ebe2d-5e5a-4960-bc90-c3e19dc0d35e	nextflow run task_chakraborty.nf
+2023-02-10 17:05:12	3.9s	angry_allen	OK	2003ae04a0b2558568dcf9b14d4eaede	83e1e589-3abc-4f30-8262-4785d9da05f5	nextflow run task_chakraborty.nf
+2023-02-10 17:06:44	3.3s	romantic_turing	ERR	612129a26d6afd13481d59aa1649fcdb	2873e6c7-a736-4ff7-b376-517eea2c92b1	nextflow run task_chakraborty.nf
+2023-02-10 17:07:52	-	romantic_sinoussi	-	0526fd81226b86d6a0aea696cb4f16e3	7c230908-9d1c-4e09-a8d8-480b1a24be08	nextflow run task_chakraborty.nf
+2023-02-10 19:55:55	-	friendly_fermi	-	c83f9a4414bb5ccec915cb803e3a56c2	ed6cb00b-f5bd-4fd9-88a5-8ea62321c494	nextflow pipeline_chakraborty.nf
+2023-02-10 19:57:05	-	clever_montalcini	-	a112db1a6d7e1567c9910cc529a8a967	431e686a-22ec-4eb9-b4d1-c2638a4f3fc3	nextflow pipeline_chakraborty.nf
+2023-02-10 20:00:17	-	jolly_snyder	-	08298923bc59436b6bed8f793e0a47ce	c47d8127-ff45-4368-bca5-15b3eebcc945	nextflow pipeline_chakraborty.nf
+2023-02-10 20:03:19	-	pedantic_sinoussi	-	e37abbdda6301ac1acc4be6c9633a8b3	76744eca-3b27-4146-90d3-1b539db422c2	nextflow pipeline_chakraborty.nf
+2023-02-10 20:08:26	-	adoring_spence	-	e37abbdda6301ac1acc4be6c9633a8b3	4a3b6bac-01c3-4099-92cf-92e7ad8cc41d	nextflow pipeline_chakraborty.nf
+2023-02-10 20:08:41	-	cranky_banach	-	e37abbdda6301ac1acc4be6c9633a8b3	84cb3769-5c84-4f15-a020-dd68e6b88ec1	nextflow run pipeline_chakraborty.nf
+2023-02-10 20:13:14	-	infallible_varahamihira	-	c118f9c61afb436a94c5a0cc4cafa0e8	bf79ac81-313c-45e7-8974-1584f847a88f	nextflow run pipeline_chakraborty.nf
+2023-02-10 20:14:34	-	mad_coulomb	-	73390a299a74e5c192cc45b9562d47d4	b8566e08-b3b9-4a19-a061-c51b988b9f9e	nextflow run pipeline_chakraborty.nf
+2023-02-10 20:15:49	-	maniac_mcnulty	-	424def82b40d0398d1872729f44699a2	f42c3e70-cf36-4478-a12a-923645798d66	nextflow run pipeline_chakraborty.nf
+2023-02-10 20:16:25	-	agitated_ekeblad	-	81b13b67f6771a9b1214f46128d9edc2	7276a4eb-17f1-43f5-a962-0046e34f483f	nextflow run pipeline_chakraborty.nf
+2023-02-10 20:17:33	-	pedantic_plateau	-	6c2ffe1cbb19ff18086d73881d405bb8	2f8d3b1f-f740-4e7c-a3f5-5852a35b4670	nextflow run pipeline_chakraborty.nf
+2023-02-10 20:19:56	-	cheesy_wozniak	-	83faeb061727f01c82a168c6f4cdfd5e	02517940-e051-45c0-9ffd-22096291f862	nextflow run pipeline_chakraborty.nf
+2023-02-10 20:22:26	-	stoic_archimedes	-	203f729101826ae99ef0d76ad307d826	89def96b-9520-489b-aabb-3bf22ccd01aa	nextflow run pipeline_chakraborty.nf
+2023-02-10 20:25:18	-	boring_panini	-	a4237a4b71b7c9eb3ecbee2e998805f3	abbcf18d-7ff6-4055-a777-a85eddc3d14d	nextflow run pipeline_chakraborty.nf
+2023-02-10 20:27:10	-	spontaneous_varahamihira	-	c56ba1f06279122f39c5395f32393d57	5d9c48b0-716b-473a-aeda-6f4acb6a37a2	nextflow run pipeline_chakraborty.nf
+2023-02-10 20:30:37	-	pedantic_sax	-	c56ba1f06279122f39c5395f32393d57	56746b85-c865-4d96-8b18-1ad0a3007428	nextflow run pipeline_chakraborty.nf --accession M21012
+2023-02-10 20:34:44	-	boring_pare	-	bbba8c4a1642c50cf5d5d2c239497c13	02e7cbc1-fae6-49e3-acd7-5d2bdfa22401	nextflow run 1.nf
+2023-02-10 20:39:03	-	elegant_ride	-	bbba8c4a1642c50cf5d5d2c239497c13	9b1d8061-ff07-4c65-aeeb-0f349a75b2cb	nextflow run 1.nf
+2023-02-10 20:44:45	-	determined_stone	-	5351309aa743234b194063e7430b368d	2c943138-700c-4c9e-b92c-eb4b1efd70e2	nextflow run 1.nf
+2023-02-10 20:50:35	-	sharp_sammet	-	21a0b38f69bde0e1957ee5d37350191b	29ea1bbc-0f03-4b04-8d39-f879e6d7607f	nextflow run 1.nf
+2023-02-10 20:51:51	-	thirsty_booth	-	21a0b38f69bde0e1957ee5d37350191b	952ad605-7ea2-4aac-8665-94e410b8ce0c	nextflow run 1.nf
+2023-02-10 20:52:58	-	shrivelled_dijkstra	-	243c5ecda7bf29007a1b30ad04f8a289	3d905184-cb1d-481a-bd66-e318e2d9001c	nextflow run 1.nf
+2023-02-10 20:54:32	-	disturbed_meitner	-	d2cebd5702c8693971b65a4657e6034c	4ad0ee8c-39e2-43fc-a570-abc318ecd2bf	nextflow run 1.nf
+2023-02-10 20:54:56	-	golden_shannon	-	ce0799e7459a0a1d712d05e547e54072	c8ffe401-ef3e-47af-bed4-cf290e04907e	nextflow run 1.nf
+2023-02-10 21:03:31	-	spontaneous_kalam	-	0309676cc23abf9b05577ff814678d10	1f568c46-80fd-47cc-b1f9-00881944a05b	nextflow run 1.nf
+2023-02-10 21:12:43	-	nostalgic_bose	-	c9d7485ee17c9c0398e63e9a12cf3d1d	c15ebe8b-ef48-415f-beb1-98b1d73a58ae	nextflow run 1.nf
+2023-02-10 21:15:46	-	suspicious_becquerel	-	7e3bbfb9edb8f9586f40d57ceb3b6a1b	6b62fc4d-4b75-4d47-836d-c2b61d61167c	nextflow run 1.nf
+2023-02-10 21:19:22	-	big_marconi	-	7e157ccf628a79783db29ab8855aff27	fe65025b-9580-40e3-bf76-fca261aa67a1	nextflow run 1.nf
+2023-02-10 21:20:01	-	cranky_hopper	-	b31c0cf757442b40d5034a0973e74eb6	627d1fdf-511d-47fa-b64b-b60d4a0cfa60	nextflow run 1.nf
+2023-02-10 21:28:02	-	suspicious_yonath	-	d4d5e8be151e8b258666d7e8b554b0b9	e152a21e-a33f-496e-8287-479706b428bc	nextflow run 1.nf
+2023-02-10 21:31:34	-	clever_shockley	-	c5f762c625fa11117d498eb4eb88908b	df808e2f-f537-4bd6-83f8-597266eb4f68	nextflow run 2.nf
+2023-02-10 21:36:55	-	distraught_shirley	-	ebfe35e369363d0c3e226c69a7bec3d4	029dd2f0-bf08-4d2b-a7cd-70062b83d4e6	nextflow run 1.nf
+2023-02-10 21:52:10	-	stoic_wiles	-	10cf7c4461b10c8fbe4ab7370e45b421	a0bf5a45-753c-48a0-8a36-be0a0176c2e0	nextflow run 2.nf --accession M21012
+2023-02-10 21:53:02	-	focused_majorana	-	bdaedc6a2ba6dd6ae5f53f87414d5aab	036419c4-1728-4579-a304-8675c293feb3	nextflow run 2.nf
+2023-02-10 21:59:03	-	exotic_hamilton	-	9723c7adbcc8d2eef928c50963173da4	62b2a04f-0791-432d-91da-1d2f6df9d473	nextflow task_chakraborty.nf
+2023-02-10 21:59:38	-	voluminous_euclid	-	7f39b6323a84f2a2eb6ee86565f6f8b6	047a7133-5cc4-44e5-8ef7-7bf1ecdd3a93	nextflow task_chakraborty.nf
+2023-02-10 22:00:01	-	distraught_baekeland	-	c2206f5d52f2f40c31b81dbbfbc35a58	3a0d1b2f-b943-4d53-b682-1d197064153c	nextflow task_chakraborty.nf
+2023-02-12 22:06:23	5.1s	boring_roentgen	ERR	5c088839b20dcb1e5b5e9ca07d17c0e2	81efd376-7807-4125-9367-469e6f58cb0e	nextflow run ngs.nf
+2023-02-12 22:07:04	4.6s	ecstatic_meucci	ERR	5c088839b20dcb1e5b5e9ca07d17c0e2	d51bb2f6-8575-4d8e-b98c-f7193499112c	nextflow run ngs.nf --profile singularity
+2023-02-12 22:07:36	4s	marvelous_hugle	ERR	5c088839b20dcb1e5b5e9ca07d17c0e2	033365b0-fffa-4f49-b6e5-75ecb8977eef	nextflow run ngs.nf -profile singularity
+2023-02-12 22:11:38	3.4s	berserk_poisson	ERR	5c088839b20dcb1e5b5e9ca07d17c0e2	fc47ab74-9cb8-436b-99ed-266c349bdd5f	nextflow run ngs.nf -profile singularity
+2023-02-12 22:14:35	4.4s	admiring_kalam	ERR	5c088839b20dcb1e5b5e9ca07d17c0e2	a5b81758-38f7-4569-9563-b70f718fabd1	nextflow run ngs.nf -profile singularity
+2023-02-12 22:15:53	3.2s	jolly_gilbert	ERR	5c088839b20dcb1e5b5e9ca07d17c0e2	4d003463-04a7-47ae-8b93-daa7c30e2e4c	nextflow run ngs.nf -profile singularity
+2023-02-12 22:17:42	13.1s	serene_williams	OK	5c088839b20dcb1e5b5e9ca07d17c0e2	685157de-874a-43b8-b87e-1eeb3f6c66b7	nextflow run ngs.nf -profile singularity
+2023-02-13 00:22:16	8s	kickass_liskov	OK	5931e45ad235261e0c62a01909539655	0077e032-1cf8-48f8-9d9d-85a59fdca08a	nextflow run lek_anirban.nf -profile singularity

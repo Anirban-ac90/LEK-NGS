@@ -1,0 +1,83 @@
+Feb-12 22:07:03.775 [main] DEBUG nextflow.cli.Launcher - $> nextflow run ngs.nf --profile singularity
+Feb-12 22:07:03.915 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.10.6
+Feb-12 22:07:03.956 [main] INFO  nextflow.cli.CmdRun - Launching `ngs.nf` [ecstatic_meucci] - revision: 5c088839b2
+Feb-12 22:07:04.171 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/cq/.nextflow/plugins
+Feb-12 22:07:04.172 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Feb-12 22:07:04.198 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Feb-12 22:07:04.201 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Feb-12 22:07:04.204 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Feb-12 22:07:04.215 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Feb-12 22:07:04.282 [main] DEBUG nextflow.Session - Session uuid: d51bb2f6-8575-4d8e-b98c-f7193499112c
+Feb-12 22:07:04.282 [main] DEBUG nextflow.Session - Run name: ecstatic_meucci
+Feb-12 22:07:04.287 [main] DEBUG nextflow.Session - Executor pool size: 4
+Feb-12 22:07:04.336 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.10.6 build 5660
+  Created: 21-12-2021 16:55 UTC (17:55 CEST)
+  System: Linux 5.15.0-60-generic
+  Runtime: Groovy 3.0.9 on OpenJDK 64-Bit Server VM 11.0.17+8-post-Ubuntu-1ubuntu222.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 5958@bioinfobox [127.0.1.1]
+  CPUs: 4 - Mem: 1.9 GB (140.3 MB) - Swap: 923.3 MB (534.6 MB)
+Feb-12 22:07:04.370 [main] DEBUG nextflow.Session - Work-dir: /home/cq/Anirban/NGS/Nextflow/Task/work [ext2/ext3]
+Feb-12 22:07:04.371 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/cq/Anirban/NGS/Nextflow/Task/bin
+Feb-12 22:07:04.380 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Feb-12 22:07:04.431 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Feb-12 22:07:04.518 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Feb-12 22:07:04.719 [main] DEBUG nextflow.Session - Session start invoked
+Feb-12 22:07:05.768 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Feb-12 22:07:06.033 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-12 22:07:06.034 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-12 22:07:06.052 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Feb-12 22:07:06.057 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=1.9 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
+Feb-12 22:07:06.181 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Feb-12 22:07:06.492 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-12 22:07:06.493 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-12 22:07:06.502 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-12 22:07:06.502 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-12 22:07:06.511 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-12 22:07:06.511 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-12 22:07:06.516 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: downloadFile, combinefastafiles, trimal, mafft
+Feb-12 22:07:06.517 [main] DEBUG nextflow.Session - Ignite dataflow network (4)
+Feb-12 22:07:06.518 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > downloadFile
+Feb-12 22:07:06.520 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > combinefastafiles
+Feb-12 22:07:06.523 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > mafft
+Feb-12 22:07:06.526 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > trimal
+Feb-12 22:07:06.529 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Feb-12 22:07:06.529 [main] DEBUG nextflow.Session - Session await
+Feb-12 22:07:06.742 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > downloadFile
+Feb-12 22:07:07.052 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > combinefastafiles
+Feb-12 22:07:07.097 [Actor Thread 6] DEBUG n.util.BlockingThreadExecutorFactory - Thread pool name=FileTransfer; maxThreads=12; maxQueueSize=36; keepAlive=1m
+Feb-12 22:07:07.498 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-12 22:07:07.508 [Task submitter] INFO  nextflow.Session - [e1/7948be] Submitted process > mafft
+Feb-12 22:07:08.114 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: mafft; status: COMPLETED; exit: 0; error: -; workDir: /home/cq/Anirban/NGS/Nextflow/Task/work/e1/7948be3e389d6e34a220c625f14724]
+Feb-12 22:07:08.156 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-12 22:07:08.159 [Task submitter] INFO  nextflow.Session - [47/1a476a] Submitted process > trimal
+Feb-12 22:07:08.246 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: trimal; status: COMPLETED; exit: 127; error: -; workDir: /home/cq/Anirban/NGS/Nextflow/Task/work/47/1a476ab39eb4cb03dbac76e63807e9]
+Feb-12 22:07:08.324 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'trimal'
+
+Caused by:
+  Process `trimal` terminated with an error exit status (127)
+
+Command executed:
+
+  trimal -in mafft.fasta -out trimal.fasta -htmlout trimal.html -automated1
+
+Command exit status:
+  127
+
+Command output:
+  (empty)
+
+Command error:
+  .command.sh: line 2: trimal: command not found
+
+Work dir:
+  /home/cq/Anirban/NGS/Nextflow/Task/work/47/1a476ab39eb4cb03dbac76e63807e9
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+Feb-12 22:07:08.338 [main] DEBUG nextflow.Session - Session await > all process finished
+Feb-12 22:07:08.340 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `trimal` terminated with an error exit status (127)
+Feb-12 22:07:08.419 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Feb-12 22:07:08.441 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=444ms; failedDuration=30ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+Feb-12 22:07:08.565 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Feb-12 22:07:08.661 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
