@@ -2,18 +2,20 @@ nextflow.enable.dsl = 2
 params.out = "${launchDir}"
 params.storedir = "${baseDir}/cache"
 params.url = null
+params.accession = "M21012"
 //nextflow run ngs.nf -profile singularity
 
 // Download the reference file
 process downloadFile {
     publishDir "${params.out}/fasta", mode: "copy", overwrite: true
     storeDir params.storedir
-
+    input:
+        val accession
     output:
         path "M21012.fasta"
     """
     # The accession M21012 is used - please adapt this to your needs,
-    wget "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=M21012.1&rettype=fasta" -O M21012.fasta
+    wget "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=${accession}&rettype=fasta" -O ${accession}.fasta
     # adapt"{params.out}/fasta" to direct the reference file with folder containing the test files
     """
 }
@@ -28,7 +30,7 @@ process combinefastafiles {
     output:
       path "combined.fasta"
     """
-    cat ${launchDir}/fasta/*.fasta > combined.fasta
+    cat ${inputfile} ${launchDir}/fasta/*.fasta > combined.fasta
     """
 }
 // Command in shell - cat fasta/*.fasta > fasta/all.fasta
@@ -54,7 +56,8 @@ process trimal {
   input:
     path infile
   output:
-    path "*"
+    path "trimal.html"
+    path "trimal.fasta"
     """
     trimal -in ${infile} -out trimal.fasta -htmlout trimal.html -automated1
     """
@@ -66,7 +69,7 @@ process trimal {
 // For example - nextflow run lek_anirban.nf -profile singularity
 
 workflow {
-  ref_fasta_channel = downloadFile()
+  ref_fasta_channel = downloadFile(Channel.from(params.accession))
   combined_fasta_channel = combinefastafiles(ref_fasta_channel)
   mafft_fasta_channel = mafft(combined_fasta_channel)
   trimal(mafft_fasta_channel)
